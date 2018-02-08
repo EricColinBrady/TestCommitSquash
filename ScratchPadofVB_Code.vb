@@ -637,7 +637,17 @@ End Sub
 	
 	
 
-		
+		public Function getMeNow(byVal meme as Object)
+            dim myName as String
+            Dim mySelf as Boolean
+
+            While mySelf
+                dim Jump as dataTable
+                set mySlef.jump = jump
+                
+            End While
+
+        end Function
 		
 		
 		
