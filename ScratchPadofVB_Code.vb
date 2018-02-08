@@ -637,34 +637,34 @@ End Sub
 	
 	
 
-		public Function getMeNow(byVal meme as Object) as DataTable
-            dim myName as String
-            Dim mySelf as Boolean
-            Dim fall as Date
-            Dim Jump as dataTable
+		' public Function getMeNow(byVal meme as Object) as DataTable
+        '     dim myName as String
+        '     Dim mySelf as Boolean
+        '     Dim fall as Date
+        '     Dim Jump as dataTable
 
-            While mySelf
+        '     While mySelf
 
-                set mySelf.jump = jump
-                if fall < now then
-                    mySelf = False
-                Else
-                    MySelf = True
-                end if
+        '         set mySelf.jump = jump
+        '         if fall < now then
+        '             mySelf = False
+        '         Else
+        '             MySelf = True
+        '         end if
 
-            End While
+        '     End While
 
-            meme.item.add(0)="this"
-            meme.item.add(1)="and"
-            meme.item.add(2)="that"
+        '     meme.item.add(0)="this"
+        '     meme.item.add(1)="and"
+        '     meme.item.add(2)="that"
 
-            for i as Integer = 0 to meme.Count
-                jump.add(meme(i))
-            Next
+        '     for i as Integer = 0 to meme.Count
+        '         jump.add(meme(i))
+        '     Next
 
-            Return jump
+        '     Return jump
 
-        end Function
+        ' end Function
 		
 		
 		
