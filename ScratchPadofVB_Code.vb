@@ -640,11 +640,17 @@ End Sub
 		public Function getMeNow(byVal meme as Object)
             dim myName as String
             Dim mySelf as Boolean
+            Dim fall as Date
 
             While mySelf
                 dim Jump as dataTable
-                set mySlef.jump = jump
-                
+                set mySelf.jump = jump
+                if fall < now then
+                    mySelf = False
+                Else
+                    MySelf = True
+                end if
+
             End While
 
         end Function
